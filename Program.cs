@@ -15,10 +15,10 @@ namespace regex
 
             Console.WriteLine("\tWelcome To User Registration Problem");
 
-            Console.Write("\nEnter The First Name:");
-            String fname = Console.ReadLine();
+            Console.Write("\nEnter The Last Name:");
+            String lname = Console.ReadLine();
 
-            if (UserRegistration.validate(fname))
+            if (UserRegistration.validate(lname))
             {
                 Console.WriteLine("Valid Name");
             }
@@ -26,7 +26,7 @@ namespace regex
             {
                 Console.WriteLine("Invalid Name");
             }
-            Console.ReadLine();
         }
     }
+
 }
