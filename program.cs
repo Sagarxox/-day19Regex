@@ -1,6 +1,6 @@
 using System;
 
-namespace UC_5_Password_Rule1
+namespace UC_6_PasswordRule2
 {
     internal class Program
     {
